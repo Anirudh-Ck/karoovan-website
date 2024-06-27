@@ -17,7 +17,7 @@ span.sk__underliner:before {
 	background: rgb(129,21,255);
 	background: -o-linear-gradient(left, rgba(129,21,255,1) 0%, rgba(255,42,208,1) 50%, rgba(255,143,42,1) 100%);
 	background: -webkit-gradient(linear, left top, right top, from(rgba(129,21,255,1)), color-stop(50%, rgba(255,42,208,1)), to(rgba(255,143,42,1)));
-	background: linear-gradient(90deg, rgba(223, 218, 229, 0.704) 0%, rgba(237, 232, 236, 0.499) 52%, rgba(0, 0, 0, 0.401) 100%);
+	background: linear-gradient(90deg, rgba(129,21,255,1) 0%, rgba(255,42,208,1) 50%, rgba(255,143,42,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8115ff",endColorstr="#ff8f2a",GradientType=1);
 }
 
