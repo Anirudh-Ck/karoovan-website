@@ -6865,7 +6865,12 @@ p.sk__rectangles-laptop-custom-p {
  */
 
 .sk__services-background.sk__parallax-background-element {
-	background-image: url(../images/services-background-v3.jpg);
+	/* background-image: url(../images/services-background-v3.jpg); */
+	/* background-image: url(../images/Caravans/arturo-rey-m6fYkq_P2Cc-unsplash.jpg); */
+	/* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(25, 28, 32, 0.5)), 
+    url(../images/Caravans/arturo-rey-m6fYkq_P2Cc-unsplash.jpg); */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), #191C20), 
+	url(../images/Caravans/arturo-rey-m6fYkq_P2Cc-unsplash.jpg);
 	-webkit-filter: contrast(1.07);
 	filter: contrast(1.07);
 	-webkit-transform: scale(1.22);
@@ -7380,11 +7385,11 @@ p.skills-subhead {
 }
 
 .sk__testimonial-img-1 {
-	background-image: url(../images/testimonial-img-1.html);
+	background-image: url(../images/logo/user\ \(1\).png);
 }
 
 .sk__testimonial-img-2 {
-	background-image: url(../images/testimonial-img-2.html);
+	background-image: url(../images/logo/user\ \(1\).png);
 }
 
 .sk__testimonial-txt {
