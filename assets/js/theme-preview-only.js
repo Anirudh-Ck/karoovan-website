@@ -7,7 +7,7 @@ $('body').append(' ' +
 	'<div class="styler-trigger-cover"></div>' +
 	'<div class="color-styler-wrapper">' +
 		'<div class="color-styler">' +
-			'<div class="gear styler-trigger">' +
+			//'<div class="gear styler-trigger">' +
 				'<span class="icon-gear custom-spin"></span>' +
 			'</div>' +
 			'<div class="styler-menu-scroll-wrapper">' +
