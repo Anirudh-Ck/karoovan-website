@@ -15,9 +15,9 @@ span.sk__iconbox-icon-dash {
 .btn-gradient-outline-hard:before, 
 span.sk__underliner:before {
 	background: rgb(129,21,255);
-	background: -o-linear-gradient(left, rgba(129,21,255,1) 0%, rgba(255,42,208,1) 50%, rgba(255,143,42,1) 100%);
-	background: -webkit-gradient(linear, left top, right top, from(rgba(129,21,255,1)), color-stop(50%, rgba(255,42,208,1)), to(rgba(255,143,42,1)));
-	background: linear-gradient(90deg, rgba(129,21,255,1) 0%, rgba(255,42,208,1) 50%, rgba(255,143,42,1) 100%);
+	background: -o-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+	background: -webkit-gradient(linear, left top, right top, from(rgb(252, 249, 255)), color-stop(50%, rgba(255,42,208,1)), to(rgba(255,143,42,1)));
+	background: linear-gradient(90deg, rgb(144, 144, 144)  0%, rgb(144, 144, 144) 50%, rgb(255, 255, 255) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8115ff",endColorstr="#ff8f2a",GradientType=1);
 }
 
@@ -32,8 +32,8 @@ span.sk__underliner:before {
 a.sk__iconbox-icon-link:hover span[class*="icon-"].sk__gradient-fancy-text {
 	background: rgb(129,21,255);
 	background: -webkit-gradient(linear, left top, right top, from(rgba(129,21,255,1)), color-stop(52%, rgba(255,42,208,1)), to(rgba(255,143,42,1)));
-	background: -o-linear-gradient(left, rgba(129,21,255,1) 0%, rgba(255,42,208,1) 52%, rgba(255,143,42,1) 100%);
-	background: linear-gradient(90deg, rgba(129,21,255,1) 0%, rgba(255,42,208,1) 52%, rgba(255,143,42,1) 100%);
+	background: -o-linear-gradient(left, rgb(250, 249, 251) 0%, rgb(239, 229, 237) 52%, rgb(226, 222, 219) 100%);
+	background: linear-gradient(90deg, rgb(144, 144, 144) 0%, rgb(144, 144, 144) 50%, rgb(255, 255, 255) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8115ff",endColorstr="#ff8f2a",GradientType=1);
 	-webkit-background-clip: text;
 	color: #000000;
@@ -59,7 +59,7 @@ a.sk__iconbox-icon-link:hover span[class*="icon-"].sk__gradient-fancy-text {
 	background: rgb(129,21,255);
 	background: -webkit-gradient(linear, left top, right top, from(rgba(129,21,255,0.7035189075630253)), color-stop(52%, rgba(255,42,208,0.4990371148459384)), to(rgba(255,143,42,0.4009978991596639)));
 	background: -o-linear-gradient(left, rgba(129,21,255,0.7035189075630253) 0%, rgba(255,42,208,0.4990371148459384) 52%, rgba(255,143,42,0.4009978991596639) 100%);
-	background: linear-gradient(90deg, rgba(129,21,255,0.7035189075630253) 0%, rgba(255,42,208,0.4990371148459384) 52%, rgba(255,143,42,0.4009978991596639) 100%);
+	background: linear-gradient(90deg, rgba(223, 218, 229, 0.704) 0%, rgba(237, 232, 236, 0.499) 52%, rgba(0, 0, 0, 0.401) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8115ff",endColorstr="#ff8f2a",GradientType=1);
 	-webkit-background-clip: text;
 	color: #000000;
