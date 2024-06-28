@@ -1849,7 +1849,8 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
 	}
 
 	.sk__mobile-main-logo img {
-		height: 100px;
+		height: 78px;
+		margin-top: 10px;
 	}
 
 	body.sk__scrolling-started .sk__mobile-main-logo img {
@@ -1926,7 +1927,8 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
 	}
 
 	.sk__mobile-main-logo img {
-		height: 100px;
+		height: 78px;
+		margin-top: 10px;
 		width: auto;
 	}
 
@@ -1987,7 +1989,8 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
 	/* menu crossover (-1) if disableAt is lower than 1923. The value goes in min-width */
 
 	.sk__mobile-main-logo img {
-		height: 100px;
+		height: 78px;
+		margin-top: 10px;
 		width: auto;
 	}
 
