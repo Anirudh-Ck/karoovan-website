@@ -1670,6 +1670,10 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
 		padding-top: 10px;
 	}
 
+	.footer-socials-section {
+		margin-left: 23px;
+	}
+
 	.nav-custom-content .footer-socials-section h3 {
 		font-size: 19px;
 		margin-bottom: 0;
@@ -6869,8 +6873,8 @@ p.sk__rectangles-laptop-custom-p {
 	/* background-image: url(../images/Caravans/arturo-rey-m6fYkq_P2Cc-unsplash.jpg); */
 	/* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(25, 28, 32, 0.5)), 
     url(../images/Caravans/arturo-rey-m6fYkq_P2Cc-unsplash.jpg); */
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), #191C20), 
-	url(../images/Caravans/arturo-rey-m6fYkq_P2Cc-unsplash.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), #191C20),
+		url(../images/Caravans/arturo-rey-m6fYkq_P2Cc-unsplash.jpg);
 	-webkit-filter: contrast(1.07);
 	filter: contrast(1.07);
 	-webkit-transform: scale(1.22);
@@ -9795,8 +9799,7 @@ a.sk__iconbox-icon-link:hover span[class*="icon-"].sk__gradient-fancy-text {
 	}
 }
 
-Coming soon page text sizes correction
-. @media all and (max-width: 767px) {
+Coming soon page text sizes correction . @media all and (max-width: 767px) {
 
 	.sk__coming-soon-page .sk__main-slide-content h2,
 	.sk__coming-soon-page .sk__main-slide-content h2.h2-regular,
