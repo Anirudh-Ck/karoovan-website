@@ -87,7 +87,7 @@
 }
 
 .mcurtain-center {
-	background-image: url(../images/curtain-background-center.svg);
+	background-image: url(../images/logo/02.jpg);
 	left: 33.333%;
 }
 
@@ -8344,6 +8344,7 @@ span.sk__underliner:before {
  * 23. Footer
  * ==========
  */
+.top-footer-logo {}
 
 footer {
 	padding: 150px 0 40px;
@@ -8383,7 +8384,7 @@ footer {
 }
 
 .top-footer-logo {
-	max-width: 243px;
+	max-width: 180px;
 }
 
 .top-footer-logo,
