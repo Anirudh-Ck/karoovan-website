@@ -2,7 +2,7 @@
  * DarkStar
  * Theme JS
  * Author: Dragan Milenkovic
- * Copyright - 2022 Skilltech Web Design - skilltechwebdesign.com
+ * Copyright - 2024  howincloud.com
  */
 
 $(document).ready(function(){
