@@ -8387,7 +8387,9 @@ footer {
 }
 
 .top-footer-logo {
-	max-width: 243px;
+	/* max-width: 243px; */
+	max-width: 200px;
+
 }
 
 .top-footer-logo,
@@ -8629,7 +8631,9 @@ a.footer-bottom-right-links:last-child {
 	}
 
 	.top-footer-logo {
-		max-width: 260px;
+		/* max-width: 260px; */
+		max-width: 220px;
+
 		margin: 0 auto 12px;
 	}
 
