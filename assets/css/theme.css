@@ -9841,10 +9841,11 @@ Coming soon page text sizes correction
 }
 
 .gradient-links:hover,
-.gradient-links-bright:hover {
+
+/* .gradient-links-bright:hover {
 	-webkit-animation: linkColorAnimation 5s ease 0s 1 forwards;
 	animation: linkColorAnimation 5s ease 0s 1 forwards;
-}
+} */
 
 /* Shades used for backgrounds */
 
