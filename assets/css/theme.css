@@ -1393,6 +1393,28 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
 		transition: all 0.4s ease 0s;
 	}
 
+	.sk__about-us-section {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+
+	.sk__cta-warp {
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+
+	.sk__about-us-section .container {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	.sk__cta-warp .container {
+		margin-top: 0;
+		padding-top: 0;
+	}
+
 	body.sk__nav-open .sk__mobile-main-logo {
 		opacity: 0 !important;
 	}
