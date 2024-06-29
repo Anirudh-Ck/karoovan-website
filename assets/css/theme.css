@@ -1685,7 +1685,7 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
 		border-bottom: 0px solid #1d1d1e;
 	}
 
-	li.nav-item.nav-item-custom {
+	li.nav-item.nav-item-custom {        
 		background: #000000;
 	}
 
@@ -1694,7 +1694,9 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
 	}
 
 	.footer-socials-section {
-		margin-left: 23px;
+		/* margin-left: 23px; */
+		margin-left: 4px;
+
 	}
 
 	.nav-custom-content .footer-socials-section h3 {
@@ -9222,7 +9224,7 @@ span.sk__huge-vertical-deco-text {
 	width: 56px;
 	height: 56px;
 	margin: 18px auto 4px 0;
-	background: url(../images/gallery-icon-white.html) no-repeat center center;
+	/* background: url(../images/gallery-icon-white.html) no-repeat center center; */
 	background-size: cover;
 	border-radius: 100%;
 	-webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.33));
