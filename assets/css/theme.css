@@ -1926,6 +1926,7 @@ span.sk__menu-icon:not(.accented):not(.sk__gradient-back-v1) span[class^="icon-"
 
 	body.sk__scrolling-started .sk__mobile-menu-bar {
 		height: 72px;
+		background-color: #000000;
 	}
 
 	.sk__mobile-main-logo img {
@@ -6893,22 +6894,54 @@ p.sk__rectangles-laptop-custom-p {
 
 /**
  * 17. Services Section
- * ====================
+ * ====================  
  */
 
-.sk__services-background.sk__parallax-background-element {
-	/* background-image: url(../images/services-background-v3.jpg); */
+ 	/* background-image: url(../images/services-background-v3.jpg); */
 	/* background-image: url(../images/Caravans/arturo-rey-m6fYkq_P2Cc-unsplash.jpg); */
 	/* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(25, 28, 32, 0.5)), 
     url(../images/Caravans/arturo-rey-m6fYkq_P2Cc-unsplash.jpg); */
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), #191C20),
-		url(../images/caravans/arturo-rey-m6fYkq_P2Cc-unsplash.jpg);
+	/* linear-gradient(rgba(0, 0, 0, 0.5), #191C20), */
+.sk__services-background.sk__parallax-background-element {
+	background-image: 
+		url(../images/caravans/services1.jpg);
 	-webkit-filter: contrast(1.07);
 	filter: contrast(1.07);
 	-webkit-transform: scale(1.22);
 	-ms-transform: scale(1.22);
 	transform: scale(1.22);
 }
+
+/* .sk__services-background.sk__parallax-background-element {
+    position: relative;
+    background-image: url(../images/caravans/arturo-rey-m6fYkq_P2Cc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-filter: contrast(1.07);
+    filter: contrast(1.07);
+    -webkit-transform: scale(1.22);
+    -ms-transform: scale(1.22);
+    transform: scale(1.22);
+}
+
+.sk__services-background.sk__parallax-background-element::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #191C20);
+    z-index: 1;
+}
+
+.sk__services-background.sk__parallax-background-element .content {
+    position: relative;
+    z-index: 2;
+} */
+
+
+
 
 .sk__iconbox {
 	padding: 20px;
@@ -10455,4 +10488,8 @@ h2.h2-super.theme-preview-hero-h2 {
 
 .sf-error-message {
 	color: #ff6371;
+}
+.social-icons:focus,
+.social-icons:active {
+    outline: none;
 }
